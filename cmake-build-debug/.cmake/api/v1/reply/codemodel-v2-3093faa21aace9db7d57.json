@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "untitled",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LinkList_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LinkList_C-Debug-b6658a415cac7885f8a1.json",
+					"name" : "LinkList_C",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OrderList_C::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OrderList_C-Debug-0d17c2cfea6e289c85eb.json",
+					"name" : "OrderList_C",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "W:/CCode/\u5b66\u6821\u8bfe\u7a0b/untitled/cmake-build-debug",
+		"source" : "W:/CCode/\u5b66\u6821\u8bfe\u7a0b/untitled"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
