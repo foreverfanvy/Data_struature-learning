@@ -3,5 +3,6 @@ project(untitled C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(untitled OrderList_C.c
-        LinkList_C.c)
+
+add_executable(LinkList_C LinkList_C.c)
+add_executable(OrderList_C OrderList_C.c)

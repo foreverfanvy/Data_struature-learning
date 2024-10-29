@@ -41,43 +41,70 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = W$:/CCode/学校课程/untitled/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target untitled
+# Object build statements for EXECUTABLE target LinkList_C
 
 
 #############################################
-# Order-only phony target for untitled
+# Order-only phony target for LinkList_C
 
-build cmake_object_order_depends_target_untitled: phony || .
+build cmake_object_order_depends_target_LinkList_C: phony || .
 
-build CMakeFiles/untitled.dir/OrderList_C.c.obj: C_COMPILER__untitled_unscanned_Debug W$:/CCode/学校课程/untitled/OrderList_C.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\OrderList_C.c.obj.d
+build CMakeFiles/LinkList_C.dir/LinkList_C.c.obj: C_COMPILER__LinkList_C_unscanned_Debug W$:/CCode/学校课程/untitled/LinkList_C.c || cmake_object_order_depends_target_LinkList_C
+  DEP_FILE = CMakeFiles\LinkList_C.dir\LinkList_C.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
-
-build CMakeFiles/untitled.dir/LinkList_C.c.obj: C_COMPILER__untitled_unscanned_Debug W$:/CCode/学校课程/untitled/LinkList_C.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\LinkList_C.c.obj.d
-  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\LinkList_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\LinkList_C.dir
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target untitled
+# Link build statements for EXECUTABLE target LinkList_C
 
 
 #############################################
-# Link the executable untitled.exe
+# Link the executable LinkList_C.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/OrderList_C.c.obj CMakeFiles/untitled.dir/LinkList_C.c.obj
+build LinkList_C.exe: C_EXECUTABLE_LINKER__LinkList_C_Debug CMakeFiles/LinkList_C.dir/LinkList_C.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_DIR = CMakeFiles\LinkList_C.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = untitled.exe
-  TARGET_IMPLIB = libuntitled.dll.a
-  TARGET_PDB = untitled.exe.dbg
+  TARGET_FILE = LinkList_C.exe
+  TARGET_IMPLIB = libLinkList_C.dll.a
+  TARGET_PDB = LinkList_C.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target OrderList_C
+
+
+#############################################
+# Order-only phony target for OrderList_C
+
+build cmake_object_order_depends_target_OrderList_C: phony || .
+
+build CMakeFiles/OrderList_C.dir/OrderList_C.c.obj: C_COMPILER__OrderList_C_unscanned_Debug W$:/CCode/学校课程/untitled/OrderList_C.c || cmake_object_order_depends_target_OrderList_C
+  DEP_FILE = CMakeFiles\OrderList_C.dir\OrderList_C.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\OrderList_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\OrderList_C.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target OrderList_C
+
+
+#############################################
+# Link the executable OrderList_C.exe
+
+build OrderList_C.exe: C_EXECUTABLE_LINKER__OrderList_C_Debug CMakeFiles/OrderList_C.dir/OrderList_C.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\OrderList_C.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = OrderList_C.exe
+  TARGET_IMPLIB = libOrderList_C.dll.a
+  TARGET_PDB = OrderList_C.exe.dbg
 
 
 #############################################
@@ -105,7 +132,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build untitled: phony untitled.exe
+build LinkList_C: phony LinkList_C.exe
+
+build OrderList_C: phony OrderList_C.exe
 
 # =============================================================================
 # Folder targets.
@@ -115,7 +144,7 @@ build untitled: phony untitled.exe
 #############################################
 # Folder: W:/CCode/学校课程/untitled/cmake-build-debug
 
-build all: phony untitled.exe
+build all: phony LinkList_C.exe OrderList_C.exe
 
 # =============================================================================
 # Built-in targets
