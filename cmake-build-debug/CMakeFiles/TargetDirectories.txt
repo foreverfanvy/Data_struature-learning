@@ -1,3 +1,4 @@
-W:/CCode/学校课程/untitled/cmake-build-debug/CMakeFiles/untitled.dir
+W:/CCode/学校课程/untitled/cmake-build-debug/CMakeFiles/LinkList_C.dir
+W:/CCode/学校课程/untitled/cmake-build-debug/CMakeFiles/OrderList_C.dir
 W:/CCode/学校课程/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
 W:/CCode/学校课程/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
